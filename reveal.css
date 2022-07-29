@@ -1,7 +1,8 @@
 /**
- * Add the reveal class on the objects to reveal
- * all the objects marked with the class will be hidden on the page.
+ * Adding the reveal class on the objects to reveal
+ * all the objects marked with the class will be hidden on the page and only when scrolling down will be revealed
  * It's necessary add the reveal.css style to the page html
+ * It's necessary add the reveal.js script to the page html
  */
 
 .reveal{
