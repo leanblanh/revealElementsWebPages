@@ -1,0 +1,23 @@
+/**
+ * Add the reveal class on the objects to reveal
+ * all the objects marked with the class will be hidden on the page.
+ * It's necessary add the reveal.css style to the page html
+ */
+
+.reveal{
+   opacity: 0;
+}
+
+.active {
+    animation: toReveal 2s forwards;
+}
+
+
+@keyframes toReveal {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
