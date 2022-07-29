@@ -1,6 +1,6 @@
 /**
- * Function to apply the animation when the object with reveal class hit the offset on screen
- * It's necessary add the reveal.css style to the page html
+ * Function to apply the animation when the object with reveal class hit the offset when scroll down the screen
+ * It's necessary to add the reveal.css style to the page html
  */
 
 function reveal(){
